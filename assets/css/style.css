@@ -474,10 +474,10 @@ input[type=submit] {
 	font-size: 42px !important;
 	font-weight: 500;
 	position: absolute !important;
+	object-position: center !important;
 	bottom: 0 !important;
 	margin: 0 0 !important;
 	text-align: left !important;
-	
 }
 
 .journey h6 {
@@ -491,7 +491,7 @@ input[type=submit] {
 
 .blogger {
 	width: 100% !important;
-	height: 530px !important;
+	height: 600px !important;
 	object-fit: cover !important;
 	background-color: #EEEAEA !important;
 }
@@ -509,13 +509,17 @@ input[type=submit] {
 .blog-post{
 	display: flex !important;
 	flex-flow: column !important;
-	object-fit: contain !important;
+	object-fit: cover !important;
 	background-repeat: no-repeat !important;
 	width: 555px !important;
 	height: 423px !important;
 	box-shadow: 0 3 22 0 #000000 !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
+	margin-left: 4rem !important;
+	margin-right: 4rem !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	justify-content: space-evenly;
+	margin-top: 2rem !important;
 }
 
 .blog-post img {
@@ -575,5 +579,145 @@ input[type=submit] {
 	font-family: "Segoe UI", sans-serif;
 	text-align: center !important;
 	font-size: 24px !important;
+	text-decoration: none !important;
+}
+
+footer {
+	width: 100% !important;
+	height: 550px !important;
+	background-color: #707070 !important;
+	scroll-behavior: auto !important;
+}
+
+.foot-logo{
+	width: 820px !important;
+	height: 520px !important;
+	object-position: bottom !important;
+	bottom: 0 !important;
+	text-align: center !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	padding-top: 50px !important;
+	object-fit: cover !important;
+}
+
+footer a{
+	bottom: 0 !important;
+	object-position: bottom !important;
+	text-align: center !important;
+	color: #FAFAFA;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+}
+
+footer a:hover{
+	bottom: 0 !important;
+	object-position: bottom !important;
+	text-align: center !important;
+	color: #FAFAFA;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+}
+
+footer h3 a{
+	bottom: 0 !important;
+	object-position: bottom !important;
+	text-align: center !important;
+	color: #FAFAFA;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+	object-position: bottom !important;
+	padding-left: 5rem !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	position: relative;
+	vertical-align: bottom;
+	bottom: -420px !important;
+}
+
+footer h3 a:hover{
+	bottom: 0 !important;
+	object-position: bottom !important;
+	text-align: center !important;
+	color: #FAFAFA;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+}
+
+.foot-card{
+	width: 250px !important;
+	height: 250px !important;
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/footer/foot_box@2x.png");
+	background-repeat: no-repeat;
+	margin-top: 5rem !important;
+}
+
+.foot-card img {
+	width: 80px !important;
+	height: 80px !important;
+	object-fit: contain !important;
+	align-content: center !important;
+	margin: 10px 14px !important;
+}
+
+.foot-card h4{
+	text-align: center;
+	color: #FAFAFA !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	padding-top: 30px !important;
+	font-weight: 600 !important;
+}
+
+.foot-card a{
+	text-align: center !important;
+	color: #FAFAFA !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+	font-weight: 600 !important;
+}
+
+.foot-card a:hover{
+	text-align: center !important;
+	color: #FAFAFA !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	text-decoration: none !important;
+}
+
+.foot-card p{
+	text-align: left;
+	color: #FAFAFA !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+}
+
+.foot-card ul {
+	list-style: none;
+}
+
+.foot-card ul li {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	float: left !important;
+	padding: 9px 8px !important;
+}
+
+.foot-card ul li a {
+	color: #FAFAFA !important;
+	text-decoration: none !important;
+}
+
+.foot-card ul li a:hover {
+	color: #FAFAFA !important;
 	text-decoration: none !important;
 }
