@@ -36,3 +36,7 @@
 	background: rgb(249,130,143);
 	background: radial-gradient(circle, rgba(249,130,143,1) 0%, rgba(235,77,94,1) 100%);
 }
+
+.text-red {
+	color: #F05F6F !important;
+}

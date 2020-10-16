@@ -386,15 +386,104 @@ input[type=submit] {
 }
 
 .resource-card {
-	width: 50% !important;
-	height: 450px !important;
-	border-radius: 43px 76px !important;
-	object-fit: cover !important;
+	max-width: 100% !important;
+	height: 560px !important;
 	display: flex;
 	flex-direction: column !important;
-	flex-wrap: wrap !important;
-	position: absolute !important;
+	background-image: url("../images/resource_course@2x.png");
+	background-repeat: no-repeat !important;
+}
+
+.resource-card h4 {
+	max-width: 100% !important;
+	font-family: "Segoe UI", sans-serif;
 	text-align: center !important;
+	font-size: 20px !important;
+	color: #FAFAFA !important;
+	text-transform: uppercase;
+	padding-top: 5rem !important;
+	margin-left: 5rem !important;
+	margin-right: 9rem !important;
+	float: left !important;
+}
+
+.resource-card h6 {
+	max-width: 100% !important;
+	font-family: "Segoe UI", sans-serif;
+	text-align: center !important;
+	font-size: 17px !important;
+	color: #FAFAFA !important;
+	text-transform: capitalize;
+	padding-top: 1rem !important;
+	margin-left: 5rem !important;
+	margin-right: 9rem !important;
+	float: left !important;
+}
+
+.resource-card p{
+	padding-top: 4.49rem !important;
+	font-family: "Segoe UI", sans-serif;
+	text-align: center !important;
+	font-size: 18px !important;
+	color: #707070 !important;
+	margin-left: 3.42rem !important;
+	margin-right: 7rem !important;
+	text-transform: capitalize;
+	font-weight: 600 !important;
+}
+
+.resource-card h3 a, .resource-card h3 a:hover{
+	text-align: center !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 24px !important;
+	font-weight: 600 !important;
+	text-decoration: none !important;
+	color: #F05F6F !important;
+	margin: 0 auto !important;
+	padding-left: 7.44rem !important;
+}
+
+.resource-card ul {
+	list-style: none;
+}
+
+.resource-card ul li{
+	display: block;
+	float: left !important;
+	font-size: 18px !important;
+	text-align: right !important;
+	padding: 10px 12px !important;
+}
+
+.resource-card ul li a{
+	text-decoration: none !important;
+	color: #707070 !important;
+}
+
+.resource-card ul li a:hover{
+	text-decoration: none !important;
+	color: #707070 !important;
+}
+
+.resource-card button {
+	background-color: #707070 !important;
+	border-radius: 38px !important;
+	width: 191px !important;
+	height: 40px !important;
+	box-shadow: 0 0 0 0 transparent;
+	margin: 20px 7rem !important;
+}
+
+.resource-card button a, .resource-card button a:hover{
+	background-color: #707070 !important;
+	border-radius: 38px !important;
+	color: #FAFAFA;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: capitalize !important;
+	max-width: 100% !important;
 }
 
 .courses-upcoming {
