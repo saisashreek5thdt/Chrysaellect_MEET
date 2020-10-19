@@ -437,7 +437,7 @@ input[type=submit] {
 .resource-card h3 a, .resource-card h3 a:hover{
 	text-align: center !important;
 	font-family: "Segoe UI", sans-serif;
-	font-size: 24px !important;
+	font-size: 20px !important;
 	font-weight: 600 !important;
 	text-decoration: none !important;
 	color: #F05F6F !important;
@@ -690,7 +690,7 @@ input[type=submit] {
 
 .post-bottom {
 	width: 485px !important;
-	height: 210px !important;
+	height: 380px !important;
 	background-color: #455A64 !important;
 	object-position: bottom;
 	bottom: 0;
