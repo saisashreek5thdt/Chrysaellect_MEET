@@ -29,13 +29,13 @@
 	margin: 8px 18px !important;
 	
 }
-.courses-search-bg input[type=search] {
+.courses-search-bg input[type=text] {
 	background-color: #f1f1f1;
 	width: 900px !important;
 	height: 50px !important;
 	border-radius: 47px !important;
 	text-align: center !important;
-	margin: 20px 35rem !important;
+	margin: 20px auto !important;
 }
 
 .courses-search-bg::-webkit-input-placeholder {
