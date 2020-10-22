@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "Segoe UI", sans-serif;
+	src: url("../fonts/Segoe UI.ttf") format('ttf'),
+		 url("../fonts/Segoe UI Bold.ttf") format('ttf'),
+		 url("../fonts/Segoe UI Italic.ttf") format('ttf'),
+		 url("../fonts/Segoe UI Bold Italic.ttf") format('ttf');
+}
+
+.faculty_bg{
+	width: 100% !important;
+	height: 640px !important;
+	background-color: #ECECEC !important;
+}
+
+.faculty_bg_img_1 {
+	width: 750px !important;
+	height: 450px !important;
+	object-fit: contain !important;
+	margin: 6rem 2rem 0 5rem !important;
+}
+
+.faculty_bg_img_2 {
+	width: 250px !important;
+	height: 250px !important;
+	object-fit: contain !important;
+	margin: 10rem 0 !important;
+}
+
+.meet_crew{
+	width: 100% !important;
+	height: 2870px !important;
+	background-image: url("../images/team/69@2x.png");
+	background-repeat: no-repeat !important;
+	object-fit: cover !important;
+}
+
+.crew_text_img{
+	display: block !important;
+	float: right !important;
+	object-fit: cover !important;
+	padding: 35px 45px !important;
+}
+
+.crew_name{
+	display: flex !important;
+	flex-direction: column !important;
+	max-width: 100% !important;
+	height: 170px !important;
+	background-image: url("../images/team/crew_txt_bg@2x.png");
+	background-repeat: no-repeat !important;
+	margin: 0 5rem !important;
+}
+
+.crew_name h5{
+	font-family: "Segoe UI", sans-serif;
+	color: #1DA8F4 !important;
+	font-size: 25px !important;
+	padding: 20px 35px !important;
+	text-transform: capitalize !important;
+}
+
+.crew_name h6{
+	font-family: "Segoe UI", sans-serif;
+	color: #FAFAFA !important;
+	font-size: 25px !important;
+	text-transform: capitalize !important;
+	padding-left: 12.45rem !important;
+}
+
+.crew_name-img-1{
+	max-width: 100% !important;
+	height: 240px !important;
+	object-fit: cover !important;
+	background-image: url("../images/team/crew_img@2x.png") !important;
+	background-repeat: no-repeat !important;
+	display: flex !important;
+	flex-direction: row !important;
+	margin-top: 6rem !important;
+	margin-left: 4rem !important;
+	margin-right: 4rem !important;
+}
+
+.crew_name-img-1 img{
+	display: flex !important;
+	flex-direction: row !important;
+	object-fit: contain !important;
+	object-position: left !important;
+}
+
+.crew_name-img-right-info {
+	max-width: 100% !important;
+	height: 470px !important;
+	object-fit: cover !important;
+	background-image: url("../images/team/crew_text_info_bg@2x.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	display: flex !important;
+	flex-direction: row !important;
+	margin-top: 6rem !important;
+}
+
+.crew_name-img-right-info p{
+	text-align: center !important;
+	margin-top: 6rem !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 23px !important;
+	color: #474644 !important;
+	margin-left: 18rem !important;
+	margin-right: 18rem !important;
+	display: inline-block !important;
+	float: inherit !important;
+}
+
+.crew_name_1{
+	display: flex !important;
+	flex-direction: column !important;
+	max-width: 100% !important;
+	height: 170px !important;
+	background-image: url("../images/team/crew_text_right_bg@2x.png");
+	background-repeat: no-repeat !important;
+	margin: 0 5rem !important;
+}
+
+.crew_name_1 h5{
+	font-family: "Segoe UI", sans-serif;
+	color: #1DA8F4 !important;
+	font-size: 25px !important;
+	padding: 20px 35px !important;
+	text-transform: capitalize !important;
+}
+
+.crew_name_1 h6{
+	font-family: "Segoe UI", sans-serif;
+	color: #FAFAFA !important;
+	font-size: 25px !important;
+	text-transform: capitalize !important;
+	padding-left: 12.45rem !important;
+}
+
+.crew_name-img-2{
+	max-width: 100% !important;
+	height: 240px !important;
+	object-fit: cover !important;
+	background-image: url("../images/team/crew_img_right@2x.png") !important;
+	background-repeat: no-repeat !important;
+	display: flex !important;
+	flex-direction: row !important;
+	margin-top: 6rem !important;
+	margin-left: 4rem !important;
+	margin-right: 4rem !important;
+}
+
+.crew_name-img-2 img{
+	display: flex !important;
+	flex-direction: row !important;
+	object-fit: contain !important;
+	object-position: left !important;
+}
+
+.crew_name-img-left-info {
+	max-width: 100% !important;
+	height: 470px !important;
+	object-fit: cover !important;
+	background-image: url("../images/team/crew_info_left_bg@2x.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	display: flex !important;
+	flex-direction: row !important;
+	margin-top: 6rem !important;
+}
+
+.crew_name-img-left-info p{
+	text-align: center !important;
+	margin-top: 6rem !important;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 23px !important;
+	color: #474644 !important;
+	margin-left: 18rem !important;
+	margin-right: 18rem !important;
+	display: inline-block !important;
+	float: inherit !important;
+}

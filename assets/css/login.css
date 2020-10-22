@@ -25,6 +25,27 @@
 	margin-top: -17rem !important;
 }
 
+.login-box a{
+	list-style: none !important;
+	display: block !important;
+	color: #FAFAFA !important;
+	font-size: 23px !important;
+	text-transform: capitalize !important;
+	padding-top: 8px !important;
+	text-decoration: none !important;
+	text-align: center !important;
+}
+
+.login-box a:hover{
+	list-style: none !important;
+	display: block !important;
+	color: #FAFAFA !important;
+	font-size: 22px !important;
+	text-transform: capitalize !important;
+	padding-top: 8px !important;
+	text-decoration: none !important;
+}
+
 .login-input-box{
 	border-radius: 12px !important;
 	background-color: #FFFFFF !important;
@@ -70,4 +91,7 @@ button[type=submit] {
 	float: none !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
+	background-color: transparent !important;
+	border-style: none !important;
+	padding-top: 32px !important;
 }
